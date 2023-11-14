@@ -4,58 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
 
 <body>
-    <nav class="navbar">
+    <nav>
         <a href="" class="nav__home">Home</a>
-        <a href="" class="nav__link-one">Link One</a>
-        <a href="" class="nav__link-two">Link Two</a>
-        <a href="" class="nav__link-three">Link Three</a>
+        <div>
+            <a href="" class="nav__link-one">Link One</a>
+            <a href="" class="nav__link-two">Link Two</a>
+            <a href="" class="nav__link-three">Link Three</a>
+        </div>
     </nav>
     <main>
-        <div class="hero__left-container">
-            <h1 class="hero-title">The Ultimate Landing Page</h1>
-            <p class="hero-description">A landing page so cool that not even Postman could resist landing on it. Lorem
+        <div class="hero-container">
+            <h1>The Ultimate Landing Page</h1>
+            <p>A landing page so cool that not even Postman could resist landing on it. Lorem
                 ipsum dolor sit amet consectetur adipisicing elit. Similique iure repudiandae ex ad assumenda!</p>
-            <button class="hero-button">Experience It</button>
+            <button class="button-styling" type="button">Experience It</button>
         </div>
-        <div class="hero__right-container">
-            <img src="" alt="">
-        </div>
+        <div class="hero-container right-hero">this is a placeholder for an image.</div>
     </main>
-    <section class="images-container">
-        <figure>
-            <img src="" alt="">
-            <figcaption>This is an image with accompanying text below.</figcaption>
-        </figure>
-        <figure>
-            <img src="" alt="">
-            <figcaption>This is an image with accompanying text below.</figcaption>
-        </figure>
-        <figure>
-            <img src="" alt="">
-            <figcaption>This is an image with accompanying text below.</figcaption>
-        </figure>
-        <figure>
-            <img src="" alt="">
-            <figcaption>This is an image with accompanying text below.</figcaption>
-        </figure>
+    <section class="information-container">
+        <h2>Some Random Info</h2>
+        <div class="figures">
+            <figure>
+                <img src="" alt="">
+                <figcaption>This is an image with accompanying text below.</figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption>This is an image with accompanying text below.</figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption>This is an image with accompanying text below.</figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption>This is an image with accompanying text below.</figcaption>
+            </figure>
+        </div>
     </section>
     <section class="user-quote">
-        <i>This website is so cool that I forgot to eat breakfast this morning while browsing its contents. It really
-            gets you hooked, not even I know what's going on!</i>
-        <p>-God</p>
+        <div>
+            <i>This website is so cool that I forgot to eat breakfast this morning while browsing its contents. It
+                gets you really hooked for hours. Not even I know what's going on!</i>
+            <p>-Some Dude</p>
+        </div>
     </section>
     <section class="call-to-action-container">
-        <h3 class="call-title">Today Is Gonna Be The Day</h3>
-        <p class="call-description">That they're gonna throw it back to you, buy now a hummus and a wow extra large
-            falafel meal for two.</p>
-        <button class="call-button">Buy Now</button>
+        <div class="cta-contents">
+            <div>
+                <h3>Today Is Gonna Be The Day</h3>
+                <p class="call-description">That they're gonna throw it back to you, buy now a hummus and a wow extra
+                    large
+                    falafel meal for two.</p>
+            </div>
+            <button class="button-styling" type="button">Buy Now</button>
+        </div>
     </section>
-
+    <footer>Copyright © The Ultimate Website 2023</footer>
 </body>
 
 </html>
